@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <strings>
+        <string id="AppName">Kayak Field</string>
+        <string id="LabelStroke">STR</string>
+        <string id="LabelStamina">STM</string>
+        <string id="LabelPower">W</string>
+        <string id="LabelEffort">EFF</string>
+    </strings>
+    <drawables>
+        <bitmap id="LauncherIcon" filename="drawables/launcher_icon.png"/>
+    </drawables>
+</resources>
