@@ -2,7 +2,7 @@
 <iq:manifest xmlns:iq="http://www.garmin.com/xml/connectiq" version="3">
     <iq:application id="a2d0f7bb-9d57-4bb3-9f6b-c48344d12b91" type="datafield" name="@Strings.AppName" entry="KayakDataFieldApp" minApiLevel="3.2.0">
         <iq:products>
-            <iq:product id="forerunner970"/>
+            <iq:product id="fr970"/>
         </iq:products>
     </iq:application>
 </iq:manifest>
