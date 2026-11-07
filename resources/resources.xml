@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
-    <strings>
-        <string id="AppName">Kayak Field</string>
-        <string id="LabelStroke">STR</string>
-        <string id="LabelStamina">STM</string>
-        <string id="LabelPower">W</string>
-        <string id="LabelEffort">EFF</string>
-        <string id="LiveLabel">EST. LIVE</string>
-    </strings>
+    <properties>
+        <property id="powerScale" type="number">100</property>
+        <property id="strokeScale" type="number">100</property>
+    </properties>
+    <settings>
+        <setting propertyKey="@Properties.powerScale" title="Power estimate scale">
+            <settingConfig type="numeric" min="50" max="200" />
+        </setting>
+        <setting propertyKey="@Properties.strokeScale" title="Stroke estimate scale">
+            <settingConfig type="numeric" min="50" max="200" />
+        </setting>
+    </settings>
 </resources>
