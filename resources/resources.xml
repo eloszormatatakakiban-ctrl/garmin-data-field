@@ -6,8 +6,6 @@
         <string id="LabelStamina">STM</string>
         <string id="LabelPower">W</string>
         <string id="LabelEffort">EFF</string>
+        <string id="LiveLabel">EST. LIVE</string>
     </strings>
-    <drawables>
-        <bitmap id="LauncherIcon" filename="drawables/launcher_icon.png"/>
-    </drawables>
 </resources>

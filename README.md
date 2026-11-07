@@ -1,18 +1,18 @@
-# This is a lightweight Garmin Connect IQ implementation for a kayak training data field.
+# Garmin Connect IQ kayak data field
 #
-# Important note:
-# - The Connect IQ SDK does not expose Garmin-native Stamina or swim stroke cadence/count values
-#   for data fields on devices like the Forerunner 970.
-# - This implementation calculates custom, live estimates from the sensors that are normally available
-#   (speed, heart rate, cadence, elapsed activity info), which is useful for dashboarding and analysis.
-# - These metrics are designed for custom tracking and export, not to replace Garmin's proprietary metrics.
-#
-# Compile with the Garmin Connect IQ SDK:
-#   monkeyc -o kayak-field.prg -f monkey.jungle
+# This project is a custom data field for a Garmin Forerunner 970 or similar device.
+# It is designed to show live estimated kayak metrics while a standard Garmin activity runs.
 #
 # Notes:
-#   - Data fields are displayed on the watch during activity only.
-#   - To analyze data more deeply, export the FIT file from the device or pair the watch with Garmin Connect.
-#   - If you want true native Stamina or stroke metrics, they must be provided by Garmin's native activity profiles
-#     and are not directly accessible from a custom data field.
+# - The values are estimates based on available sensor data such as speed, cadence, and HR.
+# - Garmin native stamina / stroke count metrics are not directly exposed to custom data fields.
+# - This project is meant for real-time dashboarding and custom analysis.
+# - For true post-workout charting in Garmin Connect, a developer FIT field or a full activity app
+#   may be required depending on device support.
+
+# Build in VS Code with the Monkey C extension:
+#   1. Install Connect IQ SDK and Monkey C extension.
+#   2. Open this folder in VS Code.
+#   3. Select the project product(s) with "Monkey C: Edit Products".
+#   4. Build with "Monkey C: Build for Device".
 
